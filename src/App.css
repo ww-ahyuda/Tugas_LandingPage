@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.paragrahp {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.box {
+  border: 1px solid #353434;
+  border-radius: 10px;
+  padding: 2em;
+  margin: 5em auto;
+  width: 50%;
+  box-shadow: 10px 10px 5px rgb(52, 54, 54);
+}
+
+
